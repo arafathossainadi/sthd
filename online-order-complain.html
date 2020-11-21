@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Online Order Complain | Star Tech Help Doc</title>
+	<!-- css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- scripts -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body id="complainQuery" class="ooc">
+	<nav class="navbar navbar-expand-xl navbar-light bg-light">
+		<a class="navbar-brand" href="#"><img class="logo" src="images/st-logo.svg" class="" alt=""><span class="sthd-title">Star Tech HelpDoc</span></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav ml-auto">
+		    <li class="nav-item active">
+		      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="warranty-information.html">Warranty Information</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="service-information.html">Service Information</a>
+		    </li>
+		    <li class="nav-item dropdown">
+		      <a class="nav-link ddown" href="complain-query.html">
+		        Complain Queries
+		      </a>
+		      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		        <a class="dropdown-item" href="branch-complain.html">Branch Complain</a>
+		        <a class="dropdown-item" href="service-complain.html">Service Complain</a>
+		        <a class="dropdown-item" href="warranty-complain.html">Warranty Complain</a>
+		        <a class="dropdown-item" href="online-order-complain.html">Online Order Complain</a>
+		        <a class="dropdown-item" href="courier-service-complain.html">Courier Service Complain</a>
+		        <a class="dropdown-item" href="#">Software Problem</a>
+		      </div>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="warranty-service-tc.html">Warranty and Service T&C</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link" href="#">Your Scripts</a>
+		    </li>
+		    <li class="nav-item dropdown">
+		      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Online Order</a>
+		      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		        <a class="dropdown-item" href="#">Order Verification</a>
+		        <a class="dropdown-item" href="#">Payment Information</a>
+		        <a class="dropdown-item" href="#">Courier Information</a>
+		        <a class="dropdown-item" href="#">Delivery Information</a>
+		        <a class="dropdown-item" href="#">How To Check Stock</a>
+		        <a class="dropdown-item" href="#">Order Status Explanation</a>
+		      </div>
+		    </li>
+		    <li class="nav-item dropdown">
+		      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact Information</a>
+		      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		        <a class="dropdown-item" href="#">Branch Contact</a>
+		        <a class="dropdown-item" href="#">Product Manager</a>
+		        <a class="dropdown-item" href="#">Service Contact</a>
+		        <a class="dropdown-item" href="#">Delivery Information</a>
+		        <a class="dropdown-item" href="#">RMA Contact</a>
+		      </div>
+		    </li>
+		    <li class="nav-item dropdown">
+		      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Queries</a>
+		      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+		        <a class="dropdown-item" href="#">Complain Queries</a>
+		        <a class="dropdown-item" href="#">EMI Queries</a>
+		        <a class="dropdown-item" href="#">Vendor Queries</a>
+		        <a class="dropdown-item" href="#">Sponsorship Queries</a>
+		        <a class="dropdown-item" href="#">3rd Party Seller Queries</a>
+		      </div>
+		    </li>
+		    <li class="nav-item dropdown">
+		      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+		      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+		        <a class="dropdown-item" href="#">Product Information</a>
+		        <a class="dropdown-item" href="#">Our Own Brands</a>
+		        <a class="dropdown-item" href="#">Task Manager Details</a>
+		        <a class="dropdown-item" href="#">Competitors</a>
+		        <a class="dropdown-item" href="#">Distributors & Suppliers</a>
+		        <a class="dropdown-item" href="#">Facebook Issue</a>
+		      </div>
+		    </li>
+		  </ul>
+		</div>
+	</nav>
+	<section class="banner">
+		<img src="images/ooc.jpg" alt="">
+	</section>
+	<section class="container-fluid bg-section-color">
+		<div class="row">
+			<h5 class="container" style="margin: 30px auto 30px auto; text-align: center; font-weight: bold;">আমাদের হটলাইনে যেকোনো কমপ্লেইন আসা মাত্র সেটি খুব সতর্কতার সাথে সাপোর্ট দিতে হবে। অনলাইন অর্ডার নিয়ে যে সকল গ্রাহক হটলাইনে যোগাযোগ  করবেন তাদের কথা মনোযোগ দিয়ে শুনতে হবে, তাদের বলতে হবে আমরা আপনার অভিযোগটি নিচ্ছি আর আপনাকে যত দ্রুত সম্ভব আপনার এই সমস্যার সমাধান করে দিচ্ছি। </h5>
+			<table class="table table-bordered container">
+			  <thead>
+			    <tr>
+			      <th scope="col" colspan="4">Delivery Distribution and Online Sales Contact Person</th>
+			    </tr>
+			    <tr>
+			    	<th>Name</th>
+			    	<th>Phone No.</th>
+			    	<th>Problem Type</th>
+			    	<th>IP</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <td align="center">Mohammad Rasel  </td>
+			      <td align="center">01313717082</td>
+			      <td align="center">Delivery Problem</td>
+			      <td align="center">271</td>
+			    </tr>
+			    <tr>
+			      <td align="center">Nasimul Bari Nissan</td>
+			      <td align="center"> 01709995572</td>
+			      <td align="center">Sales Problem</td>
+			      <td align="center">271</td>
+			    </tr>
+			  </tbody>
+			</table>
+			<section class="container">
+				<div class="cq-faq">
+					<h1>FAQ</h1>
+					<h6>আমি এখনো আমার অর্ডার পাইনি কেন?</h6><br>
+					<p>প্রথমে দেখতে হবে যে অর্ডার এর বর্তমানে এর স্ট্যাটাস কি, যদি স্ট্যাটাস Confirm থাকে তবে বুঝে নিতে হবে প্রোডাক্ট এখনো আমাদের ষ্টকে এসে পৌঁছে নেই, এই ক্ষেত্রে কাস্টমার কে বুঝিয়ে ডেলিভারির জন্য আরও কিছুদিন সময় নিতে হবে। যদি স্ট্যাটাস Billing অবস্থায় থাকে তবে বুঝতে হবে আগামী দুই দিনের ভিতর পেয়ে যাবেন। এই ক্ষেত্রে কাস্টমার কে বুঝিয়ে ডেলিভারির জন্য আরও কিছুদিন সময় নিতে হবে। </p>
+					<br><br>
+					<h6>আমি অর্ডার করেছি এই পণ্য কিন্তু আমার কাছে এসেছে এই পণ্য কেন এমন হল??</h6><br>
+					<p>এমন ধরনের কোন অভিযোগ আসলে কাস্টমার কে বুঝিয়ে বলতে হবে এমন অনাকাঙ্ক্ষিত ঘটনার জন্য আমরা দুঃখিত। কাস্টমার কে বলতে হবে আমাদের কিছু সময় দিন আমরা আপনার এই সমস্যা সমাধান করে দিচ্ছি। সময় নেবার পর, আমাদের ডেলিভারি এন্ড ডিস্ট্রিবিউশন টিমের সাথে যোগাযোগ করে সকল তথ্য নিতে হবে। সাধারনত এমন কোন ঘটনা হলে আমরা সাথে সাথে পরের দিন পরিবর্তন করে দেই।</p><br><br>
+					<h6>আমি যে কালার অর্ডার করেছি সেটা পাইনি কেন এমন হল?</h6><br>
+					<p>এমন ধরনের কোন অভিযোগ আসলে কাস্টমার কে বুঝিয়ে বলতে হবে এমন অনাকাঙ্ক্ষিত ঘটনার জন্য আমরা দুঃখিত। কাস্টমার কে বলতে হবে আমাদের কিছু সময় দিন আমরা আপনার এই সমস্যা সমাধান করে দিচ্ছি। সময় নেবার পর, আমাদের ডেলিভারি এন্ড ডিস্ট্রিবিউশন টিমের সাথে যোগাযোগ করে সকল তথ্য নিতে হবে। তথ্য নিয়ে যদি দেখেন ষ্টকে তার পছন্দের কালারটি নেই তাহলে কাস্টমার কে জানাবেন আমরা দুঃখিত আমরা চেষ্টা করেছি আপনার পছন্দের কালারটি দিতে কিন্তু মার্কেটে এই কালার নেই। যদি কাস্টমার মানেন তবে উনাকে বলবেন আমরা পরের অর্ডার গুলো আরও সতর্কতার সাথে প্রসেস করবো। যদি আর কাস্টমার না মানেন তবে তার যদি অ্যাডভান্স পেমেন্ট করা থাকে তবে বলবেন আমরা আগামিকাল আপনার পণ্য নিয়ে  আপনার পেমেন্ট রিফান্ড করে দিচ্ছি আর আমরা পরের অর্ডার গুলো আরও সতর্কতার সাথে প্রসেস করবো। </p><br><br>
+					<h6>আপনাদের থেকে যে প্রোডাক্ট নিয়েছি সেটা কাজ করছে না কেন এমন হল??</h6><br>
+					<p>এমন ধরনের কোন অভিযোগ আসলে কাস্টমার কে বুঝিয়ে বলতে হবে এমন অনাকাঙ্ক্ষিত ঘটনার জন্য আমরা দুঃখিত। কাস্টমার কে বলতে হবে আমাদের কিছু সময় দিন আমরা আপনার এই সমস্যা সমাধান করে দিচ্ছি। সময় নেবার পর, আমাদের ডেলিভারি এন্ড ডিস্ট্রিবিউশন টিমের সাথে যোগাযোগ করে সকল তথ্য নিতে হবে। সাধারণত ২৪ ঘণ্টার ভিতরে কোন সমস্যা হলে আমরা এমনিতে প্রোডাক্ট পরিবর্তন করে দেই। তবে ২৪ ঘণ্টা অতিবাহিত হলে আমাদের সার্ভিস সেন্টারে কাস্টমারকে প্রোডাক্ট নিয়ে আসতে হবে। তবে বাসায় বসে এই সুবিধা পেতে চাইলে ২০০ টাকা পে করতে হবে। </p><br><br>
+					<h6>আমি আপনাদের এখানে পেমেন্ট করেছি কিন্তু এখনো কোন কনফার্মেশন এসএমএস পাইনি কেন এমন হল?  </h6><br>
+					<p>
+						এমন ধরনের কোন অভিযোগ আসলে কাস্টমার কে বুঝিয়ে বলতে হবে এমন অনাকাঙ্ক্ষিত ঘটনার জন্য আমরা দুঃখিত। কাস্টমার কে বলতে হবে আমাদের কিছু সময় দিন আমরা আপনার এই সমস্যা সমাধান করে দিচ্ছি।  প্রথমে দেখতে হবে কাস্টমার পেমেন্ট এর ম্যাথুড কি ছিল? যদি কাস্টমার এর পেমেন্ট বিকাশে করা থাকে তবে তাকে তার বিকাশ নাম্বার আর ট্রানজাকশন আইডি চাইবেন। তাকে আশ্বস্ত করতে হবে যে কিছুক্ষণের ভিতরে আপনার অর্ডার কনফার্ম করা হবে। <br>
+						কাস্টমারের পেমেন্ট যদি ব্যাংক অথবা বিকাশের এর গেটওয়ে থেকে করা থাকে তবে কিছু জিনিস খেয়াল করতে হবে। <br>
+						# যদি আমাদের কমেন্ট বক্সে  Insufficient Balance দেখায় তবে কাস্টমার কে বলতে হবে আপনার একাউন্টে পর্যাপ্ত ব্যাল্যান্স নেই অনুগ্রহ করে একাউন্ট রিচার্জ করে আবার চেষ্টা করুন। <br>
+						# যদি আমাদের কমেন্ট বক্সে  Pending দেখায় কিন্তু কাস্টমার বলে তার একাউন্ট থেকে টাকা কেটে নিয়ে গেছে তবে কাস্টমার কে বলবেন আপনার ব্যাংক থেকে হয়তো ঠিক ব্যাল্যান্স কেটে নিয়ে গেছে কিন্তু আমাদের একাউন্টে সেটি অ্যাডজাস্ট করা হয়, ৪৮-৭২ ঘণ্টার ভেতর হয় আমাদের একাউন্টে অথবা আপনার একাউন্টে এমাউন্ট অ্যাডজাস্ট হয়ে যাবে।  <br>
+						# যদি আমাদের কমেন্ট বক্সে  Error ম্যাসেজ  দেখায় তবে কাস্টমার কে বলতে হবে আপনার পেমেন্ট সাকসেসফুল হয়নি, Error ম্যাসেস সো করার অনেক কারন হতে পারে। 
+						<ul>
+							<li>কাস্টমারের কার্ড থেকে ই- কমার্স ট্রানজাকশন  বন্ধ থাকলে।  </li>
+							<li>কাস্টমারের কার্ডের লিমিট ক্রস করে গেলে। </li>
+							<li>কাস্টমারের পেমেন্ট টাইমে সার্ভার ডাউন হয়ে গেলে। </li>
+							<li>কাস্টমার সঠিক গেটওয়ে ব্যবহার না করলে।</li>
+						</ul>
+					</p>
+					<br><br>
+					<h6>আমি আপনাদের পোর্টালে পেমেন্ট করতে পারছি না</h6><br>
+					<ul>
+						<li>কাস্টমারের  কার্ড থেকে ই- কমার্স ট্রানজাকশন  বন্ধ থাকলে, তাকে বলতে হবে আপনি কি এর আগে কোথাও কোন অনলাইনে পেমেন্ট কি করেছিলেন ? যদি বলেন না করিনি তবে তাকে বলতে হবে সরাসরি ব্যাংক এর সাথে যোগাযোগ করতে অথবা বিকাশে পেমেন্ট করতে।</li>
+						<li>কাস্টমারের কার্ডের লিমিট ক্রস করে গেলে তাকে বলতে হবে আপনার কার্ডের লিমিট কত ? লিমিট আসলে ক্রস করে গেলে তাকে আমাদের পারশিয়াল পেমেন্ট এর অফার করতে হবে। </li>
+						<li>কাস্টমারের পেমেন্ট টাইমে সার্ভার ডাউন হয়ে গেলে , অন্য সার্ভার দিয়ে পেমেন্ট করতে বলতে হবে, চাইলে উনি আমাদের ইন্টারনেট ব্যাংকিং অথবা মোবাইল ব্যাংকিং এর সার্ভার ব্যবহার করে পেমেন্ট করতে পারবে। </li>
+						<li>কাস্টমার সঠিক গেটওয়ে ব্যবহার না করলে। তাকে আমাদের সকল সার্ভার গুলো বুঝিয়ে দিতে হবে। 
+আমাদের পেমেন্ট গেটওয়ে গুলো হচ্ছে </li>
+					</ul>
+					<p>VISA / MASTER যেকোনো বাংলাদেশ এর লোকাল ভিসা মাস্টার কার্ড দিয়ে এই গেটওয়ে দিয়ে পেমেন্ট করতে পারবেন। </p>
+					<p>AMEX সিটি ব্যাংক এর গেটওয়ে  দিয়ে যেকোনো ভিসা মাস্টার আর এমেক্স কার্ড দিয়ে দিয়ে পেমেন্ট করতে পারবেন।</p>
+					<p>Nexus  / Mobile Wallet  / Internet Baking এই গেটওয়ে দিয়ে কাস্টমার সকল ধরনের পেমেন্ট করতে পারবেন। কাস্টমার যদি কোন ভাবে অন্য গেটওয়ে দিয়ে পেমেন্ট করতে ব্যর্থ হয় তবে এই গেটওয়ে দিয়ে পেমেন্ট করতে পারবেন। </p>
+				</div>
+			</section>
+		</div>
+	</section>
+	<footer class="container">
+		<h6>All rights are reserved by Star Tech & Engineering Ltd © 2020  Proudly Powered By: Web Team STAR TECH</h6>
+		<h5>
+			Disclaimer The information contained in these documents is confidential, privileged and only for the information of the intended recipient and may not be used, published or redistributed without the prior written consent of Star Tech & Engineering Ltd 
+		</h5>
+	</footer>
+</body>
+</html>

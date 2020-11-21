@@ -1,0 +1,355 @@
+/**
+*
+* unified css
+*
+*/
+
+.mtb30{
+	margin: 30px 0;
+}
+
+.mtb60{
+	margin: 60px 0;
+}
+
+.ptb30{
+	padding: 30px 0;
+}
+
+.ptb60{
+	padding: 60px 0;
+}
+
+.mt30{
+	margin-top: 30px;
+}
+
+.mt60{
+	margin-top: 60px;
+}
+
+.pt30{
+	padding-top: 30px;
+}
+
+.pt60{
+	padding-top: 60px;
+}
+
+.pb30{
+	padding-bottom: 30px;
+}
+
+.pb60{
+	padding-bottom: 60px;
+}
+
+.ddown:after{
+	display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.bg-section-color{
+	background: #F1F3F5;
+}
+
+.m0auto{
+	margin: 0 auto;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+}
+/*=================================
+=            index css            =
+=================================*/
+/**
+*
+* Header & Navigation
+*
+*/
+nav{
+	box-shadow: 0 2px 2px #2125292b;
+}
+
+.logo{
+	max-width: 92px;
+}
+
+.sthd-title{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 15px;
+	vertical-align: middle;
+	color: #2b398f;
+	font-family: "Roboto", sans-serif;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	font-weight: bold;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+	color: #2b398f;
+	transition: 0.1s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #2b398f;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #2b398f;
+}
+
+/**
+*
+* banner css
+*
+*/
+
+.banner img{
+	max-width: 100%;
+	height: auto;
+}
+
+/**
+*
+* social buttons
+*
+*/
+
+.social-btns{
+	padding: 30px 0;
+	text-align: center;
+}
+/**
+*
+* quick bookmarks
+*
+*/
+
+.quick-bookmarks{
+	background: #f1f3f5;
+	padding: 30px 0;
+}
+
+.icon{
+	background:#2b398f;
+	width: 128px;
+	height: 128px;
+	border-radius: 50%;
+	position: relative;
+	transition: 0.1s ease-in-out;
+	border: 2px solid #F1F3F5;
+	margin: 0 auto;
+}
+
+.icon i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:#ffffff;
+	font-size: 30px;
+}
+
+.icon img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:#ffffff;
+	width: 50px;
+}
+
+.qb-body{
+	border-radius: 50%;
+}
+
+.qb-body:nth-child(2n+2){
+	margin-bottom: 15px;
+}
+
+.qb-body a{
+	text-decoration: none;
+}
+
+.qb-body:hover .icon{
+	transform: scale(1.1);
+}
+
+.qb-body:hover .icon:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: -10px;
+	bottom: -10px;
+	left: -10px;
+	right: -10px;
+	border-radius: 50%;
+	border: 2px solid #2b398f;
+	animation: 0.3s;
+}
+
+.qb-label{
+	margin-top: 15px;
+}
+
+.qb-label h4{
+	text-align: center;
+	color: #2b398f;	
+}
+
+footer{
+	padding: 30px 0;
+	text-align: center;
+}
+
+.accordion button{
+	color: rgba(235,105,12,1);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.accordion .card-header:hover button{
+	text-decoration: none;
+	color: rgb(154 64 0);
+}
+
+/*=====  End of index css  ======*/
+
+/*=========================================
+=            warranty info css            =
+=========================================*/
+
+.warranty-info{
+	padding: 60px 0;
+}
+
+.warranty-info .card-header{
+	cursor: pointer;
+}
+
+.warranty-info i{
+	float: right;
+	color:#2b398f;
+	font-size: 20px;
+	margin-top: 8px;
+}
+
+/*=====  End of warranty info css  ======*/
+
+/*========================================
+=            service info css            =
+========================================*/
+
+#service-info .warranty-info{
+	padding: 30px 0 60px 0;
+}
+
+#service-info .warranty-info button{
+	font-size: 21px;
+}
+
+#service-info th{
+	text-align: center;
+}
+
+/*=====  End of service info css  ======*/
+
+/*==========================================
+=            complain query css            =
+==========================================*/
+
+#complainQuery .cq-faq{
+	padding-bottom: 60px;
+}
+
+#complainQuery .cq-faq h1{
+	text-align: center;
+	color: rgba(235,105,12,1);
+	margin-bottom: 60px;
+}
+
+#complainQuery .cq-faq{
+	padding-bottom: 60px;
+}
+
+.cq-faq h6{
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+#complainQuery .cq-faq h6{
+	color: rgba(235,105,12,1);
+}
+
+/*=====  End of complain query css  ======*/
+
+/*=================================================
+=            online order complain css            =
+=================================================*/
+
+.ooc table{
+	margin-bottom: 60px;
+}
+
+.ooc th{
+	text-align: center;
+}
+
+/*=====  End of online order complain css  ======*/
+
+/*====================================================
+=            courier service complain css            =
+====================================================*/
+
+.csc .cq-faq{
+	padding-bottom: 0 !important;
+}
+
+.csc .sundarban{
+	max-width: 100%;
+	height: auto;
+}
+
+.sundarban-slip{
+	padding: 30px;
+}
+
+.ecourier-slip{
+	padding: 30px;
+}
+
+/*=====  End of courier service complain css  ======*/
+
+
+/*====================================================
+=            warranty and service t&c css            =
+====================================================*/
+
+#wstc iframe{
+	width: 100%;
+	height: 1080px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+/*=====  End of warranty and service t&c css  ======*/
